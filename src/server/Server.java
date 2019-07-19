@@ -20,6 +20,12 @@ public class Server {
 	private static ClientHandler clientHandler;
 	private static Thread thread;
 
+
+	public static Vector<ClientHandler> getActiveClients() {
+		return activeClients;
+	}
+
+
 	public static void main(String[] args) {
 
 		activeClients = new Vector<>();
