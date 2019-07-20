@@ -25,7 +25,8 @@ public class Client {
 
 		try {
 			// Get localhost ip address.
-			ip = InetAddress.getByName("localhost");
+			ip = InetAddress.getByName("crewchat.hopto.org");
+//			ip = InetAddress.getByName("67.61.132.91");
 
 			// Open socket & bind to port.
 			socket = new Socket(ip, PORT);
